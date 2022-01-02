@@ -1,0 +1,22 @@
+{
+  "name": "springsheep",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress": "1.8.2",
+    "vuepress-plugin-sakura": "^1.1.0",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": "",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  }
+}
