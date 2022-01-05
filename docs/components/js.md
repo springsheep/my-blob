@@ -1,7 +1,38 @@
 ---
 title: js 相关
-date: 2021-12-30
+date: 2022-1-5
 ---
+### file blob arrayBuffer
+file 和 blob 都是表示类文件对象 file继承了blob的方法  
+blob和arraybuffer都是二进制容器，后者更底层可以更改具体的blob可以看成一个集合只能分块，因此他们的应用场景不一样
+### XmlRequstHttp
+ajax使用这个实现的，
+```js
+const getJSON = function (url) {
+        return new Promise((resolve, reject) => {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', url, false);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== 4) return;
+                if (xhr.status === 200 || xhr.status ===304) {
+                    resolve(xhr.responseText);
+                } else {
+                    reject(new Error(xhr.responseText));
+                }
+            };
+            xhr.send();
+        });
+    };
+```
+### jsbrage原理
+native拦截urlschema 通过表示为判断你是调用了哪个方法 ，然后通过回掉函数返回数据
+### 同源策略
+由于网络安全的原因，因此出现同源策略  
+不同域名 端口都会触发 会把dom 数据 和 网络隔离
+类似的解决方案 引入script脚本 postmessage传输数据  cros访问网络资源
+
+解决跨域 cros ng代理 jsonp
 ### 前后端加密的方法有哪些
 md5 sha1 sha256 非对称加密（RSA利用公钥匙）
 ### unknown 和any 有什么区别？
