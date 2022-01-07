@@ -25,3 +25,17 @@
     
 *******************************************************************************
     
+   ### 2022-1-7 15:25
+    commitHash: 7f9b89569b2cdade8abb16151c3ee8fabb2ad26d
+    commitUserName: zhangp
+    commitUserEmail: zhangp@citycloud.com.cn
+    commitMessage: 修改模板
+    commitDate: 2022-1-7 15:24
+    gitRemoteAddress: https://github.com.cnpmjs.org/springsheep/my-blob.git (fetch)
+    buildUserName: zhangp
+    buildUserEmail: zhangp@citycloud.com.cn
+    buildBranch: master
+    buildDate: 2022-1-7 15:25
+    
+*******************************************************************************
+    
