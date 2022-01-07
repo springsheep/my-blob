@@ -28,6 +28,11 @@ module.exports = {
             "icon": "reco-home"
          },
          {
+            "text": "更新记录",
+            "link": "/version",
+            "icon": "reco-date"
+         },
+         {
             "text": "留言板",
             "link": "/messageboard/index.md",
             "icon": "reco-home"
