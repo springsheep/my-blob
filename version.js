@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-04 10:48:48
- * @LastEditTime: 2022-01-07 15:24:41
+ * @LastEditTime: 2022-01-07 15:28:21
  * @LastEditors: 张鹏
  * @Description: In User Settings Edit
  * @FilePath: /sgup-web-front/build/version.js
@@ -37,17 +37,13 @@ if (versionStr.indexOf(commitHash) !== -1) {
    const nowDate = new Date();
    const buildDate = `${nowDate.getFullYear() + '-' + (nowDate.getMonth() + 1) + '-' + nowDate.getDate() + ' ' + nowDate.getHours() + ':' + nowDate.getMinutes()}`;
    versionStr = `
-   ### ${buildDate}
-    commitHash: ${commitHash}
-    commitUserName: ${commitUserName}
-    commitUserEmail: ${commitUserEmail}
-    commitMessage: ${commitMessage}
-    commitDate: ${commitDate}
-    gitRemoteAddress: ${gitRemteAddress}
-    buildUserName: ${buildUserName}
-    buildUserEmail: ${buildUserEmail}
-    buildBranch: ${branch}
-    buildDate: ${buildDate}
+   ### 更新时间：${commitDate}
+    更新人: ${commitUserName}
+    更新信息: ${commitMessage}
+    仓库地址: ${gitRemteAddress}
+    打包人: ${buildUserName}
+    打包分支: ${branch}
+    打包日期: ${buildDate}
     \n${new Array(80).join('*')}
     `;
 
