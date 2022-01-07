@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-04 10:48:48
- * @LastEditTime: 2022-01-07 15:14:16
+ * @LastEditTime: 2022-01-07 15:24:41
  * @LastEditors: 张鹏
  * @Description: In User Settings Edit
  * @FilePath: /sgup-web-front/build/version.js
@@ -37,6 +37,7 @@ if (versionStr.indexOf(commitHash) !== -1) {
    const nowDate = new Date();
    const buildDate = `${nowDate.getFullYear() + '-' + (nowDate.getMonth() + 1) + '-' + nowDate.getDate() + ' ' + nowDate.getHours() + ':' + nowDate.getMinutes()}`;
    versionStr = `
+   ### ${buildDate}
     commitHash: ${commitHash}
     commitUserName: ${commitUserName}
     commitUserEmail: ${commitUserEmail}
