@@ -1,4 +1,5 @@
 module.exports = {
+   base: '/interview/',
    "title": "春天的小绵羊",
    "description": "享受时光吧，工程狮🦁️",
    "dest": "public",
@@ -37,11 +38,6 @@ module.exports = {
             "link": "/messageboard/index.md",
             "icon": "reco-home"
          },
-         // {
-         //    "text": "时间线",
-         //    "link": "/timeline",
-         //    "icon": "reco-date"
-         // },
          {
             "text": "文档",
             "icon": "reco-message",
@@ -157,16 +153,16 @@ module.exports = {
             }
          }
       ],
-      ["sakura", {
-         num: 20,  // 默认数量
-         show: true, //  是否显示
-         zIndex: -1,   // 层级
-         img: {
-            replace: false,  // false 默认图 true 换图 需要填写httpUrl地址
-            // httpUrl: './logo.png'     // 绝对路径
-         }
-      }]
-      ,
+      // ["sakura", {
+      //    num: 20,  // 默认数量
+      //    show: true, //  是否显示
+      //    zIndex: -1,   // 层级
+      //    img: {
+      //       replace: false,  // false 默认图 true 换图 需要填写httpUrl地址
+      //       // httpUrl: './logo.png'     // 绝对路径
+      //    }
+      // }]
+      // ,
 
       [
          'vuepress-plugin-comment',
