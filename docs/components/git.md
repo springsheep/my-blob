@@ -1,7 +1,12 @@
 ---
 title: git
 date: 2022-01-02
+tags:
+ - git
+categories:
+ -  git
 ---
+
 /*
  * @Descripttion: ----描述----
  * @version: 1.0

@@ -46,20 +46,23 @@ module.exports = {
                   "text": "知识点",
                   "link": "/docs/components/"
                },
-               {
-                  "text": "其他相关",
-                  "link": "/docs/other/"
-               },
             ]
          },
          {
-            "text": "GitHub",
-            "icon": "reco-message",
+            "text": "Contact",
+            "icon": "reco-github",
             "items": [
                {
                   "text": "GitHub",
                   "link": "https://github.com/springsheep/interviewSummary",
-                  "icon": "reco-github"
+               },
+               {
+                  "text": "CSDN",
+                  "link": "https://blog.csdn.net/weixin_44823323?type=blog",
+               },
+               {
+                  "text": "语  雀",
+                  "link": "https://www.yuque.com/mouse-znyb8/hril9g/scrkm0",
                }
             ]
          }
@@ -91,7 +94,7 @@ module.exports = {
          },
          "tag": {
             "location": 3,
-            "text": "Tag"
+            "text": "分类"
          }
       },
       "friendLink": [

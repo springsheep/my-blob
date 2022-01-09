@@ -1,6 +1,10 @@
 ---
 title: nginx 相关
 date: 2021-12-30
+tags:
+ - nginx
+categories:
+ - nginx
 ---
 <!--
  * @Descripttion: ----描述----
@@ -8,7 +12,7 @@ date: 2021-12-30
  * @Author: 张鹏
  * @Date: 2021-12-31 14:00:42
  * @LastEditors: 张鹏
- * @LastEditTime: 2021-12-31 14:04:53
+ * @LastEditTime: 2022-01-09 15:16:01
 -->
 ### 如何去判断nginx配置是否正确
 

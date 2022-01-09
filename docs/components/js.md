@@ -1,6 +1,10 @@
 ---
 title: js 相关
 date: 2022-1-5
+tags:
+ - js
+categories:
+ - js
 ---
 ### file blob arrayBuffer
 file 和 blob 都是表示类文件对象 file继承了blob的方法  

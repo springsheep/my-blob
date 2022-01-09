@@ -1,21 +1,19 @@
 ---
 home: true
-heroText: 春天的小绵羊
+heroText: 张鹏
 tagline: Enjoy when you can, and endure when you must.
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-# bgImage: '/avatar.png'
+heroImage: /name.png
+heroImageStyle: {
+  maxWidth: '600px',
+  width: '100%',
+  display: block,
+  margin: '4rem auto 0',
+}
+bgImage: '/banner.jpeg'
 bgImageStyle: {
   height: '450px'
 }
-isShowTitleInHome: false
+isShowTitleInHome: true
 actionText: Guide
 actionLink: /views/other/guide
 features:
