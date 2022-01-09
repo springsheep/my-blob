@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-04 10:48:48
- * @LastEditTime: 2022-01-07 15:28:21
+ * @LastEditTime: 2022-01-09 17:58:06
  * @LastEditors: 张鹏
  * @Description: In User Settings Edit
  * @FilePath: /sgup-web-front/build/version.js
@@ -11,7 +11,7 @@ const execSync = require('child_process').execSync; // 同步子进程
 const fs = require('fs');
 
 const versionPath = 'version.md'; // version路径
-const buildPath = 'dist'; // 打包的路径
+const buildPath = 'docs'; // 打包的路径
 const autoPush = true; // 写入版本信息之后是否自动提交git上
 const commitHash = execSync('git show -s --format=%H').toString().trim(); // 最后提交的版本hash
 const gitRemteAddress = execSync('git remote -v').toString().split('\n')[0].split('\t')[1];
@@ -60,7 +60,9 @@ if (versionStr.indexOf(commitHash) !== -1) {
 
 // 将version文件移植到打包文件中
 if (fs.existsSync(buildPath)) {
+   console.log(12321312);
    fs.writeFileSync(`${buildPath}/${versionPath}`, fs.readFileSync(versionPath));
+   fs.unlinkSync(`${versionPath}`)
 }
 
 console.info('\x1B[32m%s\x1b[0m', [
