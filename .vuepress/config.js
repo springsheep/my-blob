@@ -117,7 +117,7 @@ module.exports = {
       lastUpdated: 'Last Updated', // string | boolean
       "author": "张鹏",
       "authorAvatar": "/photo.png",
-      "record": "xxxx",
+      "record": "菲菲专享版 ©2018-2022",
       "startYear": "2017",
       valineConfig: {
          appId: 'BOF2aVTCEQJn0Py31n6XgnkX-gzGzoHsz',// your appId
@@ -125,37 +125,38 @@ module.exports = {
       }
    },
    plugins: [
-      ["@vuepress-reco/vuepress-plugin-bgm-player", {
-         audios: [
-            // 网络文件示例
-            {
-               name: '강남역 4번 출구',
-               artist: 'Plastic / Fallin` Dild',
-               url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-               cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-            },
-            {
-               name: '用胳膊当枕头',
-               artist: '최낙타',
-               url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-               cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-            }
-         ],
-         autoShrink: true
-      }],
-      [
-         "@vuepress-reco/vuepress-plugin-kan-ban-niang",
-         {
-            theme: ['izumi', 'blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'shizuku', 'wanko', 'miku', 'z16'],
-            clean: false,
-            messages: {
-               welcome: '我是lookroot欢迎你的关注 ',
-               home: '心里的花，我想要带你回家。',
-               theme: '好吧，希望你能喜欢我的其他小伙伴。',
-               close: '再见哦'
-            }
-         }
-      ],
+      // ["@vuepress-reco/vuepress-plugin-bgm-player", {
+      //    audios: [
+      //       // 网络文件示例
+      //       // {
+      //       //    name: '강남역 4번 출구',
+      //       //    artist: 'Plastic / Fallin` Dild',
+      //       //    url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+      //       //    cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+      //       // },
+      //       {
+      //          name: '用胳膊当枕头',
+      //          artist: '최낙타',
+      //          url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+      //          cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+      //       }
+      //    ],
+      //    autoShrink: true
+      // }],
+      // [
+      //    "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+      //    {
+      //       // 'izumi', 'blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'shizuku', 'wanko', 'miku', 'z16
+      //       theme: ['haruto'],
+      //       clean: false,
+      //       messages: {
+      //          welcome: '我是lookroot欢迎你的关注 ',
+      //          home: '心里的花，我想要带你回家。',
+      //          theme: '好吧，希望你能喜欢我的其他小伙伴。',
+      //          close: '再见哦'
+      //       }
+      //    }
+      // ],
       // ["sakura", {
       //    num: 20,  // 默认数量
       //    show: true, //  是否显示

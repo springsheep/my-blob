@@ -1,6 +1,10 @@
 ---
 title: webpack
 date: 2022-1-1
+tags:
+ - webpack
+categories:
+ - webpack
 ---
 <!--
  * @Descripttion: ----描述----
@@ -8,7 +12,7 @@ date: 2022-1-1
  * @Author: 张鹏
  * @Date: 2022-01-01 23:14:49
  * @LastEditors: 张鹏
- * @LastEditTime: 2022-01-08 16:17:34
+ * @LastEditTime: 2022-01-09 16:04:11
 -->
 
 ## 项目优化
