@@ -21,7 +21,7 @@ module.exports = {
    ],
    "theme": "reco",
    "themeConfig": {
-
+      subSidebar: 'auto',
       "nav": [
          {
             "text": "主页",
@@ -30,7 +30,7 @@ module.exports = {
          },
          {
             "text": "更新记录",
-            "link": "/version",
+            "link": "/docs/version",
             "icon": "reco-date"
          },
          {

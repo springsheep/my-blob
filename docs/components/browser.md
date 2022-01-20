@@ -5,16 +5,8 @@ tags:
  - 浏览器
 categories:
  -  浏览器
+sidebar: true
 ---
-<!--
- * @Descripttion: ----描述----
- * @version: 1.0
- * @Author: 张鹏
- * @Date: 2021-12-30 10:21:16
- * @LastEditors: 张鹏
- * @LastEditTime: 2022-01-09 15:13:33
--->
-
 
 ## 垃圾回收
 

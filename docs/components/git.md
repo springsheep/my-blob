@@ -1,20 +1,18 @@
 ---
 title: git
-date: 2022-01-02
+sidebarDepth: 2
 tags:
  - git
 categories:
- -  git
+ - git
+date: 2022-01-02
 ---
 
-/*
- * @Descripttion: ----描述----
- * @version: 1.0
- * @Author: 张鹏
- * @Date: 2022-01-02 00:12:55
- * @LastEditors: 张鹏
- * @LastEditTime: 2022-01-02 00:12:56
- */
+::: tip 提示
+this is a git
+:::
+
+<!-- more -->
 ## git版本回退
 
 ## git回退某个文件到某个版本
