@@ -63,6 +63,10 @@ module.exports = {
                {
                   "text": "语  雀",
                   "link": "https://www.yuque.com/mouse-znyb8/hril9g/scrkm0",
+               },
+               {
+                  "text": "个人简历",
+                  "link": "https://vue3.vip/zhangpeng.pdf",
                }
             ]
          }
