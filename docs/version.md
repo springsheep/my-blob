@@ -1,21 +1,21 @@
 
-   ### 更新时间：2022-1-9 17:59
+   ### 更新时间：2022-2-11 16:29
     更新人: zhangp
-    更新信息: docs: 自动提交程序包版本信息
-    仓库地址: https://github.com.cnpmjs.org/springsheep/my-blob.git (fetch)
+    更新信息: 新增个人简历和kkfile
+    仓库地址: https://github.com/springsheep/my-blob.git (fetch)
     打包人: zhangp
     打包分支: master
-    打包日期: 2022-1-9 18:22
+    打包日期: 2022-2-11 16:46
     
 *******************************************************************************
     
-   ### 更新时间：2022-1-9 18:22
+   ### 更新时间：2022-3-3 15:38
     更新人: zhangp
-    更新信息: docs: 自动提交程序包版本信息
-    仓库地址: https://github.com.cnpmjs.org/springsheep/my-blob.git (fetch)
+    更新信息: 新增 vue 和源码
+    仓库地址: https://github.com/springsheep/my-blob.git (fetch)
     打包人: zhangp
     打包分支: master
-    打包日期: 2022-1-9 18:23
+    打包日期: 2022-3-3 15:39
     
 *******************************************************************************
     
