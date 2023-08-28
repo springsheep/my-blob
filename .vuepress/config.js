@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/interview/",
+  base: "/",
   title: "春天的小绵羊",
   description: "享受时光吧，工程狮🦁️",
   dest: "public",
