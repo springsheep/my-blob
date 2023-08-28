@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
+    "build": "vuepress build",
     "deploy": "bash deploy.sh",
     "version": "node version"
   },
@@ -13,7 +13,7 @@
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress": "1.8.2",
     "vuepress-plugin-sakura": "^1.1.0",
-    "vuepress-theme-reco": "1.6.10"
+    "vuepress-theme-reco": "1.6.17"
   },
   "description": "",
   "dependencies": {
